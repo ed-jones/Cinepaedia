@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<script type="text/javascript" src="javascript/script.js">
-</script>
-<meta name="theme-color" content="#d15353">
-</head>
-<body>
+  <script type="text/javascript" src="javascript/script.js">
+  </script>
+  <meta name="theme-color" content="#d15353">
   <meta name="viewport" content="width=device-width">
   <title>
     Cinepaedia
   </title>
   <link href="css/search.css" rel="stylesheet">
 </head>
+
 <body>
   <div id="header">
     <h1>
@@ -23,29 +23,29 @@
       When you can't decide what movie to watch
     </p>
   </div>
-   <div id="body">
+  <div id="body">
 
     <div class="col">
 
-     <h2>
-       <a href="database.html" style="color:black">
-        Find a movie
-      </a>
+      <h2>
+        <a href="database.html" style="color:black">
+          Find a movie
+        </a>
       </h2>
-        <form action="javascript:search(search)" name="searchForm">
-          <input type="search" placeholder="search" name="search">
-        </form>
-        <div id="loading">
+      <form action="javascript:search(search)" name="searchForm">
+        <input type="search" placeholder="search" name="search">
+      </form>
+      <div id="loading">
 
 
         <img src="images/ajax-loader.gif" width="16px" height="16px">
       </div>
 
-<div id="results"></div>
-</div>
-<div id="darkenBackground" onClick="javascript:closeWindow()"></div>
+      <div id="results"></div>
     </div>
-    <div id="entryContainer">
+    <div id="darkenBackground" onClick="javascript:closeWindow()"></div>
+  </div>
+  <div id="entryContainer">
     <div id="entry">
       <div id="loading">
         <img src="images/ajax-loader.gif" width="16px" height="16px">
@@ -58,4 +58,5 @@
     &#xA9 2015 Cinepaedia
   </div>
 </body>
+
 </html>
